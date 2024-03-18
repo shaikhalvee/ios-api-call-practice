@@ -112,16 +112,6 @@ extension ForecastViewController: UITableViewDataSource {
          // Populate the forecast
         let forecast = forecastDetails[indexPath.row]
         // Display user data in the cell
-        
-//        let nameLabel = cell.veiwWithTag(100) as ! UILabel
-//        let startTimeLabel = cell.veiwWithTag() as ! UILabel
-//        let temperatureLabel = cell.veiwWithTag() as ! UILabel
-//        let temperatureUnitLabel = cell.veiwWithTag() as ! UILabel
-//        let relativeHumidityLabel = cell.veiwWithTag() as ! UILabel
-//        let windSpeedLabel = cell.veiwWithTag() as ! UILabel
-//        let iconUrlLabel = cell.veiwWithTag() as ! UILabel
-//        let shortForecastLabel = cell.veiwWithTag() as ! UILabel
-        
         cell.dateLabel.text = forecast.startTime
         cell.temperatureLabel.text = forecast.temperature
         cell.humidityLabel.text = "Humidity: \(forecast.relativeHumidity ?? "N/A")%"
