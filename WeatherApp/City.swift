@@ -7,7 +7,7 @@
 
 import Foundation
 
-class City {
+class City: Codable {
     var name: String
     var state: String
     var lat: Double
