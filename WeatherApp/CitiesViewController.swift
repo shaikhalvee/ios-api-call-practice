@@ -8,6 +8,8 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import Kingfisher
+//import PBKHUD
 
 class CitiesViewController: UIViewController {
     

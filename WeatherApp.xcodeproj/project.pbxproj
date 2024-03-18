@@ -16,6 +16,7 @@
 		600BECDA2B9F9E8B0081AF4A /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BECD92B9F9E8B0081AF4A /* ForecastViewController.swift */; };
 		600BECDF2B9F9F2B0081AF4A /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600BECDD2B9F9F2B0081AF4A /* ForecastTableViewCell.swift */; };
 		600BECE02B9F9F2B0081AF4A /* ForecastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 600BECDE2B9F9F2B0081AF4A /* ForecastTableViewCell.xib */; };
+		852A2BDE2BA8E252008EA145 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 852A2BDD2BA8E252008EA145 /* PKHUD */; };
 		856335202B9FD3AA0004715A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8563351F2B9FD3AA0004715A /* Alamofire */; };
 		856335222B9FD3AA0004715A /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 856335212B9FD3AA0004715A /* AlamofireDynamic */; };
 		856335252B9FD3D80004715A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 856335242B9FD3D80004715A /* Kingfisher */; };
@@ -52,6 +53,7 @@
 				856335252B9FD3D80004715A /* Kingfisher in Frameworks */,
 				856335202B9FD3AA0004715A /* Alamofire in Frameworks */,
 				856335282B9FD3F90004715A /* SwiftyJSON in Frameworks */,
+				852A2BDE2BA8E252008EA145 /* PKHUD in Frameworks */,
 				856335222B9FD3AA0004715A /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +135,7 @@
 				856335212B9FD3AA0004715A /* AlamofireDynamic */,
 				856335242B9FD3D80004715A /* Kingfisher */,
 				856335272B9FD3F90004715A /* SwiftyJSON */,
+				852A2BDD2BA8E252008EA145 /* PKHUD */,
 			);
 			productName = WeatherApp;
 			productReference = 600BECC02B9F9E440081AF4A /* WeatherApp.app */;
@@ -166,6 +169,7 @@
 				8563351E2B9FD3AA0004715A /* XCRemoteSwiftPackageReference "Alamofire" */,
 				856335232B9FD3D80004715A /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				856335262B9FD3F90004715A /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				852A2BDC2BA8DC04008EA145 /* XCRemoteSwiftPackageReference "PKHUD" */,
 			);
 			productRefGroup = 600BECC12B9F9E440081AF4A /* Products */;
 			projectDirPath = "";
@@ -426,6 +430,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		852A2BDC2BA8DC04008EA145 /* XCRemoteSwiftPackageReference "PKHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pkluz/PKHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 		8563351E2B9FD3AA0004715A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
@@ -453,6 +465,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		852A2BDD2BA8E252008EA145 /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 852A2BDC2BA8DC04008EA145 /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
 		8563351F2B9FD3AA0004715A /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8563351E2B9FD3AA0004715A /* XCRemoteSwiftPackageReference "Alamofire" */;

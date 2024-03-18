@@ -1,5 +1,5 @@
 {
-  "originHash" : "bcc0be4e0dce914a8d1164ccddb93b8ebd9f0ab3e2c040d8b8308b61ad7bc4fa",
+  "originHash" : "c5c6dcbf6e05f3195243228f4e6c61fa6f6103f805a0a664840f36e6b3afaf64",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "5b92f029fab2cce44386d28588098b5be0824ef5",
         "version" : "7.11.0"
+      }
+    },
+    {
+      "identity" : "pkhud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pkluz/PKHUD.git",
+      "state" : {
+        "revision" : "8fd26f23057c6bebd6695524b1c3e05e93aba571",
+        "version" : "5.4.0"
       }
     },
     {
